@@ -10,16 +10,20 @@
     <title>Hernán Mele's Portfolio</title>
 </head>
 <body>
+    
     <div class="container-fluid">
         <header>
+            <div class="menu-btn fa-2x">
+                <i class="fas fa-bars"></i>
+            </div>
             <nav>
                 <a href="index.html" id="main-link">
                     <img src="./img/logo.png" alt="">
                     <h1 id="nombre">Hernán Mele's Portfolio</h1>
                 </a>
-                <div id="navbar">
+                <div id="navbar" class="nav-main">
                     <button id="theme" class="btn">Light Mode</button>
-                    <ul>
+                    <ul class="nav-menu">
                         <a href="#container-info" id="about" class="active"><li>About</li></a>
                         <a href="#tecnologies-container" id="tecnologies" class=""><li>Tecnologies</li></a>
                         <a href="#projects-container" id="projects" class=""><li>Projects</li></a>
@@ -35,8 +39,8 @@
                 <p id="introduction">Hello! My name is Hernán Mele, i'm a junior web developer from Argentina, anxious for learning new tecnologies and start working from this. In a section below, you can see some projects i made while learning HTML5, CSS3 and JavaScript. I'm passionate about tecnology and what people can do with it.</p>
             </div>
         </div>
-        <hr>
         <section id="tecnologies-container">
+            <hr>
             <div class="glass" id="tecnologies-child">
                 <h3>This are the tecnologies i use in this moment</h3>
                 <i class="fab fa-css3-alt fa-10x"></i>
@@ -45,8 +49,8 @@
                 <i class="fab fa-bootstrap fa-10x"></i>
             </div>
         </section>
-        <hr>
         <div id="projects-container" class="my-3">
+            <hr>
             <div class="glass">
                 <h3>This are some of my projects</h3>
                 <div id="grid-container" class="container">
@@ -96,6 +100,7 @@
         </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
 </body>
 </html>
