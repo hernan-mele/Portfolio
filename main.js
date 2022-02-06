@@ -24,7 +24,7 @@ showButton.addEventListener('click', () => {
 if(screen.width <= 480){
     tecnologies.forEach(item => {
         item.classList.remove('fa-10x')
-        item.classList.add('fa-5x')
+        item.classList.add('fa-3x')
     })
 }
 

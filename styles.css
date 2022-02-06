@@ -269,6 +269,10 @@ footer a:hover{
         top: 100px;
         z-index: 0;
     }
+
+    #projects-container img{
+        width: 50%;
+    }
 }
 
 @media (max-width: 768px){
