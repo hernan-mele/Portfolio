@@ -4,6 +4,7 @@ const body = document.body
 const footer = document.querySelector('footer')
 const showButton = document.querySelector('.menu-btn')
 const navMenu = document.querySelector('.nav-menu')
+const tecnologies = document.querySelectorAll('.fa-10x')
 
 darkModeButton.addEventListener('click', event => {
     header.classList.toggle('dark-theme')
@@ -19,6 +20,13 @@ darkModeButton.addEventListener('click', event => {
 showButton.addEventListener('click', () => {
     navMenu.classList.toggle('show')
 })
+
+if(screen.width <= 480){
+    tecnologies.forEach(item => {
+        item.classList.remove('fa-10x')
+        item.classList.add('fa-5x')
+    })
+}
 
 ScrollReveal().reveal('#container-info');
 ScrollReveal().reveal('#tecnologies-container', {delay: 250});

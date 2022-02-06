@@ -214,12 +214,25 @@ footer a:hover{
 
 @media (max-width: 480px) {
     #tecnologies-container{
-        margin-top: 200px;
-        margin-bottom: 100px;
+        margin-top: 100px;
+        margin-bottom: -150px;
     }
 
-    footer{
-        margin-top: 300px;
+    .glass{
+        width: fit-content;
+        text-align: center;
+    }
+
+    #container-info-child{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: fit-content;
+        z-index: 1;
+    }
+
+    #container-info-child img{
+        width: 50%;
     }
 
     #navbar ul{
@@ -249,6 +262,12 @@ footer a:hover{
 
     #navbar button{
         margin-right: 80px;
+    }
+
+    #contact-container{
+        position: relative;
+        top: 100px;
+        z-index: 0;
     }
 }
 
