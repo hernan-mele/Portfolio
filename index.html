@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/34d344bdd1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Hernán Mele's Portfolio</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <nav>
+                <a href="index.html" id="main-link">
+                    <img src="./img/logo.png" alt="">
+                    <h1 id="nombre">Hernán Mele's Portfolio</h1>
+                </a>
+                <div id="navbar">
+                    <button id="theme" class="btn">Light Mode</button>
+                    <ul>
+                        <a href="#container-info" id="about" class="active"><li>About</li></a>
+                        <a href="#tecnologies-container" id="tecnologies" class=""><li>Tecnologies</li></a>
+                        <a href="#projects-container" id="projects" class=""><li>Projects</li></a>
+                        <a href="#contact-container" id="contact" class=""><li>Contact</li></a>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div id="container-info">
+            <div class="glass">
+                <img src="./img/foto-cv.jpeg" alt="Profile picture of Hernán Mele" id="profile-pic" title="Hernán Mele">
+                <h2>Junior Front-End Web Developer</h2>
+                <p id="introduction">Hello! My name is Hernán Mele, i'm a junior web developer from Argentina, anxious for learning new tecnologies and start working from this. In a section below, you can see some projects i made while learning HTML5, CSS3 and JavaScript. I'm passionate about tecnology and what people can do with it.</p>
+            </div>
+        </div>
+        <hr>
+        <section id="tecnologies-container">
+            <div class="glass" id="tecnologies-child">
+                <h3>This are the tecnologies i use in this moment</h3>
+                <i class="fab fa-css3-alt fa-10x"></i>
+                <i class="fab fa-html5 fa-10x"></i>
+                <i class="fab fa-js-square fa-10x"></i>
+                <i class="fab fa-bootstrap fa-10x"></i>
+            </div>
+        </section>
+        <hr>
+        <div id="projects-container" class="my-3">
+            <div class="glass">
+                <h3>This are some of my projects</h3>
+                <div id="grid-container" class="container">
+                    <div class="row align-items-center">
+                        <div class="col-sm text-center">
+                            <a href="https://hernan-mele.github.io/currencyConversor/" target="_blank"><img src="./img/currencies-convertor.png" alt="" class="images"></a>
+                            <p>Currencies Conversor</p>
+                        </div>
+                        <div class="col-sm text-center">
+                            <a href="https://hernan-mele.github.io/github-repository-finder/" target="_blank"><img src="./img/github-repository-search.png" alt="" class="images"></a>
+                            <p>Github Repository Search (by user-name)</p>    
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm text-center">
+                            <a href="https://hernan-mele.github.io/jsCalculator/" target="_blank"><img src="./img/js-calculator.png" alt="" class="images"></a>
+                            <p>JavaScript Calculator</p>
+                        </div>
+                        <div class="col-sm text-center">
+                            <a href="https://hernan-mele.github.io/random-quote-machine/" target="_blank"><img src="./img/random-quote-machine.png" alt="" class="images"></a>
+                            <p>Random Quote Machine</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm text-center">
+                            <a href="https://hernan-mele.github.io/ToDoApp/" target="_blank"><img src="./img/todo-app.png" alt="" class="images"></a>
+                            <p>To-Do's App</p>
+                        </div>
+                        <div class="col-sm text-center">
+                            <a href="https://hernan-mele.github.io/MarkdownPreviewer/" target="_blank"><img src="./img/markdown-previewer.png" alt="" class="images"></a>
+                            <p>MarkDown Previewer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer id="contact-container">
+            <hr>
+            <h3>Here are the different ways to contact me</h3>
+            <ul>
+                <li><a href="https://wa.me/5491123128907">Whatsapp Number <i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://github.com/hernan-mele">Github Profile <i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/hernanmele/">LinkedIn Profile <i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/hernan.mele2006/">Instagram Profile <i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
