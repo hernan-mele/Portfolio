@@ -4,7 +4,7 @@ const body = document.body
 const footer = document.querySelector('footer')
 const showButton = document.querySelector('.menu-btn')
 const navMenu = document.querySelector('.nav-menu')
-const tecnologies = document.querySelectorAll('.fa-10x')
+const tecnologies = document.querySelectorAll('.tecno')
 const css = document.querySelector(".skill-css")
 const html = document.querySelector('.skill-html')
 const js = document.querySelector('.skill-js')
@@ -46,8 +46,30 @@ showButton.addEventListener('click', () => {
 
 if(screen.width <= 480){
     tecnologies.forEach(item => {
-        item.classList.remove('fa-10x')
-        item.classList.add('fa-3x')
+        if(item.classList.contains('fa-10x')){
+            item.classList.remove('fa-10x')
+            item.classList.add('fa-3x')
+        }else if(item.classList.contains('fa-5x')){
+            item.classList.remove('fa-5x')
+            item.classList.add('fa-3x')
+        }
+    })
+}
+if(screen.width > 480 && screen.width <= 780){
+    tecnologies.forEach(item => {
+        if(item.classList.contains('fa-10x')){
+            item.classList.remove('fa-10x')
+            item.classList.add('fa-5x')
+        }else if(item.classList.contains('fa-3x')){
+            item.classList.remove('fa-3x')
+            item.classList.add('fa-5x')
+        }
+    })
+}
+
+if(screen.width >= 781){
+    tecnologies.forEach(item => {
+        item.classList.add('fa-10x')
     })
 }
 
