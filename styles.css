@@ -373,6 +373,7 @@ footer a:hover{
 }
 
 @media (max-width: 480px) {
+
     #tecnologies-container{
         margin-top: 100px;
         margin-bottom: 300px;
@@ -391,6 +392,10 @@ footer a:hover{
     .glass{
         width: 100%;
         text-align: center;
+    }
+
+    #container-info{
+        margin-bottom: 100px;
     }
 
     #container-info-child{
@@ -445,7 +450,7 @@ footer a:hover{
     
     #contact-container{
         position: relative;
-        top: 250vh;
+        bottom: 0;
     }
 
     .card-title{
