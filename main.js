@@ -44,35 +44,6 @@ showButton.addEventListener('click', () => {
     navMenu.classList.toggle('show')
 })
 
-if(screen.width <= 480){
-    tecnologies.forEach(item => {
-        if(item.classList.contains('fa-10x')){
-            item.classList.remove('fa-10x')
-            item.classList.add('fa-3x')
-        }else if(item.classList.contains('fa-5x')){
-            item.classList.remove('fa-5x')
-            item.classList.add('fa-3x')
-        }
-    })
-}
-if(screen.width > 480 && screen.width <= 780){
-    tecnologies.forEach(item => {
-        if(item.classList.contains('fa-10x')){
-            item.classList.remove('fa-10x')
-            item.classList.add('fa-5x')
-        }else if(item.classList.contains('fa-3x')){
-            item.classList.remove('fa-3x')
-            item.classList.add('fa-5x')
-        }
-    })
-}
-
-if(screen.width >= 781){
-    tecnologies.forEach(item => {
-        item.classList.add('fa-10x')
-    })
-}
-
 window.addEventListener('scroll', () => {
     if(window.scrollY >= firstChild.offsetHeight){
         css.classList.add('css')
