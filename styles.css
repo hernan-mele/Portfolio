@@ -153,6 +153,10 @@ nav{
     color: var(--text-light-mode);
 }
 
+#container-info.dark-theme{
+    color: var(--text-dark-mode);
+}
+
 #container-info h2{
     text-transform: uppercase;
     font-weight: bold;
@@ -198,6 +202,11 @@ nav{
     color: var(--text-light-mode);
 }
 
+#tecnologies-title.dark-theme{
+    color: var(--text-dark-mode);
+    background: transparent;
+}
+
 #tecnologies-child{
     position: absolute;
     top: 0;
@@ -223,7 +232,6 @@ nav{
     background-color: var(--gray-1);
     text-align: center;
     line-height: 30px;
-    color: #fff;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -328,6 +336,11 @@ nav{
     font-weight: bold;
     padding-bottom: 20px;
     color: var(--text-light-mode);
+}
+
+#projects-title.dark-theme{
+    color: var(--text-dark-mode);
+    background: transparent;
 }
 
 .card{

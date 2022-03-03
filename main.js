@@ -13,6 +13,8 @@ const firstChild = document.querySelector('#container-info')
 const cards = document.querySelectorAll('.card')
 const profilePic = document.querySelector('#profile-pic')
 const title = document.querySelector('#nombre')
+const tecnologiesTitle = document.querySelector('#tecnologies-title')
+const projectsSection = document.querySelector('#projects-title')
 
 darkModeButton.addEventListener('click', event => {
     header.classList.toggle('dark-theme')
@@ -37,6 +39,9 @@ darkModeButton.addEventListener('click', event => {
     }else{
         event.currentTarget.textContent = 'Light Mode'
     }
+    firstChild.classList.toggle('dark-theme')
+    tecnologiesTitle.classList.toggle('dark-theme')
+    projectsSection.classList.toggle('dark-theme')
 }) 
 
     
