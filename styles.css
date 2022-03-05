@@ -410,6 +410,7 @@ footer a:hover{
 @media (min-width: 320px) {
 
     #tecnologies-container{
+        margin-top: 100px;
         margin-bottom: 400px;
     }
 
@@ -486,7 +487,7 @@ footer a:hover{
     
     #contact-container{
         position: static;
-        margin-top: 1900px;
+        margin-top: 2100px;
         margin-bottom: -15px;
         margin-left: -15px;
     }
